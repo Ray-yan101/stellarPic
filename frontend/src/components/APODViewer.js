@@ -10,7 +10,7 @@ function APODViewer() {
   useEffect(() => {
     setLoading(true);
     
-    fetch("http://localhost:5000/apod")
+    fetch("https://stellarpic.onrender.com")
       .then(res => {
         if (!res.ok) {
           throw new Error(`HTTP error! Status: ${res.status}`);
