@@ -1,0 +1,115 @@
+/* Add these styles to your styles.css file */
+
+.apod-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    color: #0b3d91; /* NASA blue */
+    margin-bottom: 5px;
+  }
+  
+  .date {
+    color: #666;
+    margin-top: 0;
+    font-style: italic;
+  }
+  
+  .media-container {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+    min-height: 300px;
+  }
+  
+  .apod-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video-thumbnail-container {
+    width: 100%;
+    max-width: 640px;
+    position: relative;
+  }
+  
+  .video-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-link {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0b3d91;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  .video-link:hover {
+    background-color: #0a3278;
+  }
+  
+  .loading, .error {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .error {
+    color: #d23030;
+  }
+  
+  .explanation {
+    line-height: 1.6;
+  }
+  
+  .copyright {
+    font-style: italic;
+    color: #666;
+    font-size: 0.9em;
+    text-align: right;
+  }
+  
+  .unsupported-media {
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .unsupported-media a {
+    display: block;
+    margin-top: 10px;
+    color: #0b3d91;
+    text-decoration: none;
+    font-weight: bold;
+  }
